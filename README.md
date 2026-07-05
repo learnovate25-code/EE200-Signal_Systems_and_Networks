@@ -1,23 +1,149 @@
-# EE200-Signal_Systems_and_Networks
-This repository contains my solution to the EE200 (Signals, Systems and Networks) practical assignment under the guidance of Dr. Tushar Sandhan at IIT Kanpur.
+# EE200: Signals, Systems and Networks
 
-The project explores frequency-domain signal processing techniques on both images and audio signals using Python, Fourier analysis, spectral filtering, and system design concepts.
+## Digital Signal Processing using Fourier Analysis and Frequency-Domain Filtering
+
+This repository contains the practical course project completed as part of **EE200: Signals, Systems and Networks** at **IIT Kanpur**.
+
+The project demonstrates the application of Digital Signal Processing (DSP) techniques in both **image processing** and **audio signal restoration** using Python.
+
+Two independent problems are solved:
+
+- Frequency Mixer – Hybrid Image Generation
+- Frequency De-mixer – Audio Noise Removal
+
+---
+
+## Project Overview
+
+The project explores how signals can be analyzed and manipulated in the frequency domain using Fourier Transform techniques.
+
+For images, frequency components are separated and combined to generate hybrid images whose appearance changes with viewing distance.
+
+For audio, unwanted instrumental components are identified through spectral analysis and removed using carefully designed digital filters.
+
+The project provides practical exposure to:
+
+- 2D Fourier Transform
+- Frequency spectrum visualization
+- Hybrid image synthesis
+- Digital filter design
+- Power Spectral Density analysis
+- Pole-Zero analysis
+- Bode plots
+- Audio restoration
+
+---
 
 ## Project Structure
-EE200-Frequency-Domain-Signal-Processing/
+
+```
+EE200/
 │
-├── README.md                    ← Main repo overview
+├── Q1_Frequency_Mixer.ipynb
+├── Q2_Frequency_DeMixer.ipynb
 │
-├── ProblemStatement/
-│   ├── README.md                ← Assignment description
-│   ├── Basic_image_audio_tut.ipynb
-│   ├── cat_gray.jpg
-│   ├── dog_gray.jpg
-│   └── song_with_2piccolo.wav
+├── reports/
+│   ├── Frequency_Mixer_Report.pdf
+│   └── Frequency_DeMixer_Report.pdf
 │
-└── Solution/
-    ├── README.md                ← Your approach & results
-    ├── EE200_Practical_Report_240500.pdf
-    ├── Q1_Frequency_Mixer.ipynb
-    ├── Q2_Frequency_Demixer.ipynb
-    └── sound file.wav
+├── images/
+│
+├── audio/
+│
+└── README.md
+```
+
+---
+
+# Question 1 — Frequency Mixer: *Beauty and the Blur*
+
+### Objective
+
+Study the frequency characteristics of images using the 2D Fourier Transform and construct hybrid images by combining low-frequency information from one image with high-frequency information from another.
+
+### Key Features
+
+- 2D FFT computation
+- Magnitude spectrum visualization
+- dB spectrum visualization
+- FFT spectrum centering
+- Rotation analysis
+- Hybrid image generation
+- Gaussian Low-pass filtering
+- High-pass filtering
+- Transfer function visualization
+
+### Techniques Used
+
+- NumPy FFT
+- OpenCV
+- Gaussian Filtering
+- Frequency-domain image processing
+- Matplotlib visualization
+
+---
+
+# Question 2 — Frequency De-mixer: *Unwanted Solo*
+
+### Objective
+
+Restore a corrupted music track by removing unwanted instrumental components using frequency-domain analysis and digital filtering.
+
+### Key Features
+
+- Audio normalization
+- PSD analysis
+- Spectrogram generation
+- Butterworth Band-stop filter design
+- Bode plots
+- Pole-Zero plots
+- Sequential filtering
+- Clean audio reconstruction
+
+### Techniques Used
+
+- SciPy Signal Processing
+- Butterworth Filters
+- Welch Power Spectral Density
+- Spectrogram Analysis
+- Zero-phase filtering (filtfilt)
+
+---
+
+# Technologies Used
+
+- Python
+- NumPy
+- SciPy
+- OpenCV
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+# Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Frequency-domain signal analysis
+- Image processing using Fourier Transform
+- Audio signal restoration
+- Digital filter design
+- Signal visualization techniques
+- Python-based DSP implementation
+
+---
+
+# Repository Contents
+
+- Source code (Jupyter Notebooks)
+- Project reports
+- Generated figures
+- Hybrid image outputs
+- Audio filtering results
+
+---
+
+# Acknowledgements
+
+This project was completed as part of the **EE200: Signals, Systems and Networks** course at **IIT Kanpur** under the guidance of **Prof. Tushar Sandhan**.
