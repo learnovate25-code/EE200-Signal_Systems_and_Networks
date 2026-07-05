@@ -37,23 +37,29 @@ The project provides practical exposure to:
 ## Project Structure
 
 ```
+## Repository Structure
+
+```
 EE200-Signal_Systems_and_Networks/
 │
-├── Problem Statement/
-│   ├──EE200_practical_summer_2025.pdf
+├── ProblemStatement/
+│   ├── Basic_image_audio_tut.ipynb                   # Tutorial notebook
+│   ├── EE200_practical_summer_2025.pdf               # Assignment problem statement
+│   ├── cat_gray.jpg                                  # Input image
+│   ├── dog_gray.jpg                                  # Input image
+│   └── song_with_2piccolo.wav                        # Input audio file
 │
-│
-│
-
-├── Q2_Frequency_DeMixer.ipynb
-│
-├── reports/
-│   ├── Frequency_Mixer_Report.pdf
-│   └── Frequency_DeMixer_Report.pdf
-│
-├── images/
-│
-├── audio/
+├── Solutions/
+│   ├── Q1_EE200_Practical_241191.ipynb               # Frequency Mixer implementation
+│   ├── Q2_EE200_Practical_241191.ipynb               # Frequency De-mixer implementation
+│   │
+│   ├── Reports/
+│   │   ├── Q1_EE200_Practical_241191.pdf             # Report for Question 1
+│   │   └── Q2_EE200_Practical_241191.pdf             # Report for Question 2
+│   │
+│   └── Sounds_File/
+│       ├── song_with_2piccolo.wav                    # Original corrupted audio
+│       └── Final_demixer_song_with_2piccolo.wav      # Restored audio after filtering
 │
 └── README.md
 ```
