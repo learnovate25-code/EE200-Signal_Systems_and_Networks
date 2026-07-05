@@ -37,9 +37,6 @@ The project provides practical exposure to:
 ## Project Structure
 
 ```
-## Repository Structure
-
-```
 EE200-Signal_Systems_and_Networks/
 │
 ├── ProblemStatement/
@@ -62,7 +59,6 @@ EE200-Signal_Systems_and_Networks/
 │       └── Final_demixer_song_with_2piccolo.wav      # Restored audio after filtering
 │
 └── README.md
-```
 ```
 ---
 
