@@ -130,6 +130,17 @@ Restore a corrupted music track by removing unwanted instrumental components usi
 - Matplotlib
 - Jupyter Notebook
 
+### Results
+
+- Successfully identified unwanted frequency bands using Power Spectral Density and spectrogram analysis.
+- Designed and implemented multiple Butterworth band-stop filters to suppress interfering frequency components.
+- Verified filter performance through Bode plots and pole-zero diagrams.
+- Produced a cleaned audio signal with significantly reduced interference while preserving the original musical content.
+
+### Conclusion
+
+The frequency de-mixer effectively removed unwanted instrumental noise using frequency-domain filtering techniques. The project demonstrated the practical application of Digital Signal Processing in audio restoration and highlighted the importance of spectral analysis, filter design, and zero-phase filtering for producing high-quality reconstructed audio.
+
 ---
 
 # Learning Outcomes
