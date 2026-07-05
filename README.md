@@ -3,6 +3,7 @@ This repository contains my solution to the EE200 (Signals, Systems and Networks
 
 The project explores frequency-domain signal processing techniques on both images and audio signals using Python, Fourier analysis, spectral filtering, and system design concepts.
 
+## Project Structure
 EE200-Frequency-Domain-Signal-Processing/
 │
 ├── README.md                    ← Main repo overview
