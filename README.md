@@ -49,6 +49,7 @@ EE200-Signal_Systems_and_Networks/
 ├── Solutions/
 │   ├── Q1_EE200_Practical_241191.ipynb               # Frequency Mixer implementation
 │   ├── Q2_EE200_Practical_241191.ipynb               # Frequency De-mixer implementation
+│   ├── hybrid_output.png                             # Hybrid image of cat and dog
 │   │
 │   ├── Reports/
 │   │   ├── Q1_EE200_Practical_241191.pdf             # Report for Question 1
