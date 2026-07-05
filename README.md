@@ -40,7 +40,11 @@ The project provides practical exposure to:
 EE200-Signal_Systems_and_Networks/
 │
 ├── Problem Statement/
-|
+│   ├──EE200_practical_summer_2025.pdf
+│
+│
+│
+
 ├── Q2_Frequency_DeMixer.ipynb
 │
 ├── reports/
