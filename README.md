@@ -59,27 +59,28 @@ EE200/
 
 ### Objective
 
-Study the frequency characteristics of images using the 2D Fourier Transform and construct hybrid images by combining low-frequency information from one image with high-frequency information from another.
+Study the frequency characteristics of images using the 2D Fourier Transform and construct hybrid images by combining the low-frequency information of one image with the high-frequency details of another.
 
 ### Key Features
 
-- 2D FFT computation
-- Magnitude spectrum visualization
-- dB spectrum visualization
-- FFT spectrum centering
+- 2D Fourier Transform (FFT)
+- Magnitude and dB spectrum visualization
+- Spectrum centering using `fftshift`
 - Rotation analysis
 - Hybrid image generation
-- Gaussian Low-pass filtering
-- High-pass filtering
+- Gaussian low-pass and high-pass filtering
 - Transfer function visualization
 
-### Techniques Used
+### Results
 
-- NumPy FFT
-- OpenCV
-- Gaussian Filtering
-- Frequency-domain image processing
-- Matplotlib visualization
+- Successfully computed and visualized the 2D Fourier magnitude spectra in both centered and non-centered forms.
+- Verified that rotating an image by 90° results in an equivalent rotation of its frequency spectrum while preserving the spectral energy distribution.
+- Generated a hybrid image by combining the low-frequency structure of one image with the high-frequency details of another.
+- Visualized Gaussian low-pass, high-pass, and combined transfer functions to demonstrate the frequency mixing process.
+
+### Conclusion
+
+This experiment demonstrated how the 2D Fourier Transform can be used to analyze and manipulate image frequencies. By separating and combining different frequency components, a hybrid image was created whose appearance changes with viewing distance, illustrating the role of spatial frequencies in human visual perception.
 
 ---
 
