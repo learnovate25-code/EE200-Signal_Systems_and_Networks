@@ -37,9 +37,10 @@ The project provides practical exposure to:
 ## Project Structure
 
 ```
-EE200/
+EE200-Signal_Systems_and_Networks/
 │
-├── Q1_Frequency_Mixer.ipynb
+├── Problem Statement/
+|
 ├── Q2_Frequency_DeMixer.ipynb
 │
 ├── reports/
